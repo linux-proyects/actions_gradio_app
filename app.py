@@ -29,5 +29,5 @@ output = gr.Textbox(label= "Name of Species")
 
 #create interface
 gui = gr.Interface(fn=iris,
-                   inputs=[input1, input2, input3, input4],
+                   inputs=[input1, input2, input3, input4],title="FIRST GRADIO APP - IRIS CLASSIFIER",
                    outputs=output).launch()
